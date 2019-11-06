@@ -1,0 +1,81 @@
+/* navbar menu */
+a {
+	color: black;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: "PT Sans - Narrow";
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0.32px;
+}
+
+#brand-image {
+	max-width: 60px;
+	margin-top: -4px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.nav>li>a {
+	padding: 10px 14px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #767676;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #1485cc;
+}
+
+/* top-slide */
+
+.top-slide {
+	height: 100vh;
+	background: rgba(255,255,255, .9);
+  /* background:linear-gradient(-45deg, rgba(255,255,255, 0) 0%, rgba(255,255,255, .5) 50%, rgba(33,180,226, .51) 51%, rgba(183,222,237, .72) 72%, rgba(183,222,237, 1) 100%); */
+}
+
+
+.bg1 {
+	position: relative;
+	background: url(../img/baner1.png) center 100% no-repeat;
+	background-size: cover;
+  height: 100vh;
+
+}
+
+.bg2 {
+	position: relative;
+	background: url(../img/plarium_5_years.png) center 100% no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+/* .blur-top-slide {
+	position: relative;
+	background: linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(33,180,226,0.51) 51%, rgba(183,222,237,0.72) 72%, rgba(183,222,237,1) 100%);
+	height: 100%;
+	width: 100%;
+} */
+
+/* .bg1::after,
+.bg2::after {
+	content: '';
+	position: absolute;
+	background: rgba(20, 59, 204, .3);
+	background:  linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(33,180,226, .4) 51%, rgba(183,222,237, .9) 100%);
+	height: 100vh;
+	width: 100vw;
+} */
+
+/* .bg1::before {
+	content: '';
+	position: absolute;
+	background: linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(33,180,226, .5) 51%, rgba(183,222,237, .5) 100%);
+	width: 50%;
+	height: 50%; */
+}
